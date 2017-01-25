@@ -22,10 +22,3 @@ function dorialize() {
 
 
 chrome.browserAction.onClicked.addListener(dorialize);
-// chrome.browserAction.onClicked.addListener(function(tab) {
-//   chrome.tabs.executeScript({
-//     code: 'document.body.style.filter = "grayscale()"'
-//   });
-// });
-
-
